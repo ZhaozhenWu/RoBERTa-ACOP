@@ -12,4 +12,8 @@ RoBERTa-ACOP implementation
 * Install SpaCy package and language models with   
 ```pip install numpy```  
   
-# Model
+# Model  
+We propose a auxiliary task called Aspect and Context Order Prediction (ACOP) for Aspect-based Sentiment Analysis and we construct a new model called RoBERTa-ACOP by integrate our auxiliary task into RoBERTa model with multitasking way.  
+  
+An overview of our proposed model is given below  
+![image](https://user-images.githubusercontent.com/52657545/195819683-4be2c6be-618d-4482-b015-26eaf2ecc536.png)
