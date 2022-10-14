@@ -16,4 +16,4 @@ RoBERTa-ACOP implementation
 We propose a auxiliary task called Aspect and Context Order Prediction (ACOP) for Aspect-based Sentiment Analysis and we construct a new model called RoBERTa-ACOP by integrate our auxiliary task into RoBERTa model with multitasking way.  
   
 An overview of our proposed model is given below  
-![image](https://user-images.githubusercontent.com/52657545/195819683-4be2c6be-618d-4482-b015-26eaf2ecc536.png)
+![image](https://user-images.githubusercontent.com/52657545/195820065-45379337-2376-4e79-b561-302605b602de.png)
