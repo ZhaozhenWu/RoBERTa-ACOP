@@ -21,11 +21,14 @@ and
 ```pip install transformers```
 * Generate dataset of ACOP task with  
 ```python generateOrder.py```
-* Download pretrained RoBERTa with this *[link](https://github.com/facebookresearch/fairseq/tree/main/examples/roberta)*
+* Download pretrained RoBERTa with this **[link](https://github.com/facebookresearch/fairseq/tree/main/examples/roberta)**
 * Train with command, optional arguments could be found in train.py
   
 # Model  
 We propose a auxiliary task called Aspect and Context Order Prediction (ACOP) for Aspect-based Sentiment Analysis and we construct a new model called RoBERTa-ACOP by integrate our auxiliary task into RoBERTa model with multitasking way.  
   
 An overview of our proposed model is given below  
-![image](https://user-images.githubusercontent.com/52657545/195820065-45379337-2376-4e79-b561-302605b602de.png)
+![image](https://user-images.githubusercontent.com/52657545/196029321-53f178b6-41fe-486c-9ed0-37d4eb64d113.png)
+  
+# Note  
+* Code of this repo heavily relies on **[ASGCN](https://github.com/GeneZC/ASGCN)**
